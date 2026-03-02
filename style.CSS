@@ -1,0 +1,104 @@
+/* STYLE GENERAL */
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    background-color: beige;
+    margin: 0;
+    padding: 20px;
+}
+
+/* HEADER */
+header {
+    background-color: grey
+    color: rgb(232, 176, 103);
+    padding: 10px;
+    text-align: center;
+}
+
+.profile-photo {
+    width: 500px;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+
+/* Main /sectionprincipale*/
+main {
+    padding: 20px;
+}
+section {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 8px;
+}
+
+h2 {
+    color: blue;
+    margin-bottom: 10px;
+}
+
+/* Cache le contenu des sections par défaut */
+section p,
+section ul {
+    display: none;
+}
+
+p {
+    color: #333;
+    line-height: 1.5;
+    margin: 10px 0;
+}
+
+ul {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* FORMULAIRE DE CONTACT */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: auto;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: red;
+}
+
+/* Signaler une erreur */
+.erreur {
+    border: 2px solid red;
+    background-color: #ffe6e6; /* léger fond rouge pour signaler */
+}
+
+/* FOOTER */
+footer {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+     <!-- Métadonnées pour l'encodage et l'affichage -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- Lien vers la feuille de style externe -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- En-tête avec photo et titre -->
+     <header>
+         <img src="htlm/Beauty.png" alt="Ma photo de profil" class="profile-photo">
+         <h1>Salut moi c'est NGOUMA OSUAGWU IHECHILURU Esther</h1>
+    </header>
+
+    <main>
+        <!-- Info personnelle -->
+            <section id="apropos">
+                <h2>Info personnelle</h2>
+                <p>
+                    <em>
+                        Diplômée passionnée par la performance industrielle, alliant expertise terrain en génie civil à une 
+                        spécialisation en amélioration opérationnelle.
+                        Forte d’une double expérience en suivi et contrôle de projets 
+                        d’infrastructure et optimisation de processus miniers, je souhaite contribuer à l’industrialisation 
+                        responsable du Gabon.
+                    </em>
+                </p>
+            </section>
+
+        <!-- Objectif professionnel -->
+        <section id="Objectif professionnel">
+        <h2>Objectif professionnel</h2>
+            <p>
+                Tirer parti de mes connaissances et compétences pour contribuer à l'atteinte de vos objectifs professionnels.
+            </p>
+        </section>
+
+        <!-- Formation -->
+        <section id="Formation">
+            <h2>Formation</h2>
+            <ul>
+                    <li>2025 - 2026 : Ecole Polytechnique de Masuku (USTM) - 1ère année Ing Genie civil</li>
+                    <li>2024 - 2025 : Ecole des Mines et de la Métallurgie de Moanda - Licence professionnelle Mines et Métallurgie. </li>
+                    <li>2021 - 2024 : Ecole Polytechnique de Masuku (USTM) - DUT EN GENIE CIVIL</li>
+                    <li>2019 - 2020 : Lycée Simon OYONO ABA’A - Baccalauréat scientifique série D. </li>
+                </ul>
+        </section>
+
+        <!-- Compétences -->
+        <section id=" Compétences">
+            <h2>compétences</h2>
+                <ul>
+                    <li>Suivi et contrôle des travaux </li>
+                    <li>Planification stratégique des travaux </li>
+                    <li>Capacité d’adaptation proactive aux changements </li>
+                    <li>Gestion des équipes et des approvisionnent </li>
+                </ul>
+        </section>
+
+        <!-- Expérience prossionnelle-->
+        <section id="Expérience professionnelle">
+            <h2>Expérience professionnelle</h2>
+                <ul>
+                    <li>Septembre-Novembre 2023 (2mois):BATICONFORT- Stage ouvrier </li>
+                    <li> Décembre 2023 - Mars 2024 (4Mois) : EGAB AZUR- Assistant chef Chantier  -  Suivre et contrôler les travau</li>
+                    <li>Avril-Mai 2025 (2mois) : COMILOG – Stage ouvrier</li>
+                    <li> Juillet-Septembre 2025 (3mois) : COMILOG – Stage technicienne -  Amélioration de la  performance opérationnelle </li>
+                </ul>
+        </section>
+
+        <!-- Langues  parlées-->
+        <section id="Langues">
+            <h2>Langues</h2>
+                <ul>
+                    <li>Français courant</li> 
+                    <li>Anglais niveau C1</li>
+                </ul>
+        </section>
+
+        <!-- Informatique -->
+        <section id="Informatique">
+            <h2>Informatique et logiciels</h2>
+                <ul>
+                    <li>Word, Excel, Power point</li>
+                    <li>Auto et ArchiCad, MS projet, RDM7, Revit</li>
+                </ul>
+        </section>
+
+        <!-- Centres d'intérêt -->
+        <section id="Centre d'intérêt">
+            <h2>Centre d'intérêt</h2>
+                <ul>
+                    <li>Lecture</li>
+                    <li>Sport</li>
+                    <li>Musique</li>
+                    <li>Voyage</li>
+                </ul>
+        </section>
+
+        <!-- Autre --> 
+        </section id="Autre">
+            <h2>Autre</h2>
+                <ul>
+                    <li>Stage DUT : Rénovation et construction de l’extension du Laboratoire National de Libreville(Montage sainte)</li>
+                    <li>Stage licence pro : Optimisation de la performance opérationnelle à la MVS Metso1 (OKOUMA COMILOG)</li>
+                </ul>
+        </section
+        <p>
+            <strong>
+                <em>
+                    Apprendre, se perfectionner et mieux servir
+                </em>
+            </strong>
+        </p>
+    </main>
+
+   <!-- Formulaire de contact -->
+         <footer>
+                <form id="monFormulaire"action="traitement_formulaire.php" method="post"> 
+                    <label for="nom">Nom :</label> 
+                    <input type="text" id="nom" name="nom" required> 
+                    <br> 
+
+                    <label for="email">Email :</label> 
+                    <input type="email" id="email" name="email" required> 
+                    <br> 
+                    
+                    <label for="Objet">Objet:</label> 
+                    <input type="text" id="Objet" name="Objet" required>
+                    <br>
+                    <label for="Message">Message :</label> 
+                    <textarea id="Message" name="Message" rows="5" cols="30" placeholder="Votre message..." required></textarea>
+                    <br>  
+                    <button type="submit">Envoyer</button> 
+                 </form>
+        </footer> 
+
+        <script src="js/script.js"></script>
+
+</body>
+</html>
